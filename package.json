@@ -1,5 +1,5 @@
 {
-	"name": "goat-bot-v2",
+	"name": "JOY-BOT",
 	"version": "1.5.35",
 	"description": "A simple Bot chat messenger using personal account. Made by NTKhang.",
 	"main": "index.js",
@@ -9,6 +9,7 @@
 	},
 	"dependencies": {
 		"@distube/ytdl-core": "^4.13.3",
+		"@dongdev/fca-unofficial": "^3.0.27",
 		"axios": "^1.4.0",
 		"bcrypt": "^5.0.1",
 		"bluebird": "^3.7.2",
@@ -17,13 +18,11 @@
 		"child_process": "^1.0.2",
 		"connect-flash": "^0.1.1",
 		"cookie-parser": "^1.4.6",
-		"discord-image-generation": "^1.4.25",
 		"eta": "^1.12.3",
 		"express": "^4.18.1",
 		"express-fileupload": "^1.4.0",
 		"express-rate-limit": "^6.5.2",
 		"express-session": "^1.17.3",
-		"fb-watchman": "^2.0.2",
 		"form-data": "^4.0.0",
 		"fs": "^0.0.1-security",
 		"fs-extra": "^11.1.0",
@@ -32,9 +31,8 @@
 		"gradient-string": "^2.0.2",
 		"graphql-query-to-json": "^2.0.1",
 		"https": "^1.0.0",
-		"joy-video-downloader": "^1.2.1",
-		"json-to-graphql-query": "^2.3.0",
 		"jsonlint-mod": "^1.7.6",
+		"leven": "^3.1.0",
 		"moment-timezone": "^0.5.34",
 		"mongoose": "^6.3.1",
 		"mqtt": "^4.3.7",
@@ -55,6 +53,7 @@
 		"tinyurl": "^1.1.7",
 		"totp-generator": "^0.0.13",
 		"websocket-stream": "^5.5.2",
+		"ws3-fca": "^3.5.2",
 		"yt-search": "^2.13.1"
 	},
 	"scripts": {
@@ -62,17 +61,17 @@
 		"dev": "set NODE_ENV=development&& node index.js",
 		"prod": "set NODE_ENV=production&& node index.js"
 	},
-	"author": "NTKhang",
+	"author": "JOY",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ntkhang03/Goat-Bot-V2.git"
+		"url": "git+https://github.com/JUBAED-AHMED-JOY/goatbot.git"
 	},
 	"keywords": [],
 	"bugs": {
-		"url": "https://github.com/ntkhang03/Goat-Bot-V2/issues"
+		"url": "https://github.com/JUBAED-AHMED-JOY/goatbot/issues"
 	},
-	"homepage": "https://github.com/ntkhang03/Goat-Bot-V2#readme",
+	"homepage": "https://github.com/JUBAED-AHMED-JOY/goatbot#readme",
 	"devDependencies": {
 		"eslint": "^8.2.0",
 		"eslint-config-airbnb": "^19.0.4",
